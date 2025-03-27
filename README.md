@@ -18,7 +18,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-content_aware = { git = "rs-mod-content-aware", branch = "main" }
+content_aware = { git = "https://github.com/enigs/rs-mod-content-aware", branch = "main" }
 ```
 
 ## Usage
