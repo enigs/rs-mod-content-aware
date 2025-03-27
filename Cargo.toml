@@ -1,0 +1,10 @@
+[package]
+name = "content_aware"
+version = "0.0.1"
+edition = "2024"
+authors = ["markhenry.liwag@gmail.com"]
+
+[dependencies]
+image = { version = "0.25.5", features=["default-formats", "webp"] }
+imageproc = "0.25.0"
+rustface = "0.1.7"
